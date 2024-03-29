@@ -1,3 +1,10 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+
+The vulnerability in the insecure server is due to not checking and cleaning user input. This allows attackers to mess with the database query and access sensitive data. The secure version fixes this by checking and cleaning user input before using it.
+
+Tampering with data violates the property of Integrity. This means that the data's accuracy and reliability are compromised.
+
+To enhance security, you can add authentication, which checks user identities, and authorization, which controls what users can access. Additionally, use input validation libraries, set security headers, limit access rates, and regularly check for and fix security issues.
