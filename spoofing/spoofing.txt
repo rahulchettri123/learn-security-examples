@@ -1,1 +1,5 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+The vulnerability in the insecure version is due to poor session handling and insecure cookie settings, making it easy for attackers to hijack sessions or perform XSS attacks. The secure version prevents these risks by dynamically setting a session secret, ensuring cookies can't be accessed by scripts, and restricting cookie usage to the same site.
+
+Spoofing violates the confidentiality and integrity of data. It allows unauthorized access to sensitive information (confidentiality) and manipulates or alters data (integrity).
