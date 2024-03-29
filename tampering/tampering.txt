@@ -1,0 +1,5 @@
+The vulnerability in the insecure version is due to accepting user input without checking it for harmful code. This could allow attackers to inject malicious scripts, leading to harmful actions like stealing data or taking over accounts.
+
+The secure version prevents this by checking and cleaning user input before using it, making sure any dangerous code is neutralized. This protects the application from being exploited by attackers.
+
+The CIA property violated by tampering is Integrity because it involves unauthorized changes to data or code, which can compromise the system's trustworthiness and reliability.
