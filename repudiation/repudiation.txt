@@ -1,2 +1,13 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+
+ In the insecure version, anyone can send messages without proving who they are. This means if someone sends a harmful message and later denies it, there's no way to prove they did it.
+In the secure version, every action, like sending a message, is carefully recorded with details like when and where it happened. This makes it harder for someone to deny their actions because there's proof of what they did.
+To make things even safer, we can use stronger ways to confirm who's using the system, check and clean up any information coming from users to stop sneaky attacks, and keep all the important data safe by scrambling it up. Also, it's good to regularly check everything to make sure no sneaky problems are hiding in the system.
+
+
+
+
+
+
