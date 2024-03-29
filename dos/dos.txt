@@ -1,2 +1,9 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+
+The vulnerability in dos/insecure.js is the lack of rate limiting, allowing attackers to flood the server with too many requests, causing it to crash or become unresponsive.
+
+The secure version, dos/secure.js, prevents this by limiting the number of requests a client can make within a certain time, reducing the risk of overload.
+
+To further enhance security, you can validate and sanitize user input, enforce strong authentication, monitor and log activities for suspicious behavior, deploy firewalls and intrusion detection systems, utilize content delivery networks, and regularly update and audit your security measures. These steps collectively help safeguard your application against various types of attacks, including denial of service.
